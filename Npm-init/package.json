@@ -4,7 +4,7 @@
   "description": "Curso Básico de NPM",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "keywords": [
     "npm",
@@ -14,6 +14,7 @@
   "author": "Erick Del Piero (Erick.gonzales.r@uni.pe)",
   "license": "MIT",
   "dependencies": {
+    "json-server": "^0.17.4",
     "moment": "^2.29.4",
     "react": "^18.2.0"
   },
