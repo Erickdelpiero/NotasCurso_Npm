@@ -30,3 +30,20 @@ React
 npx create-react-app my-app:	Ejecuta e instala unos paquetes para crear una app de react, cuyo nombre es "my app"
 (https://es.react.dev/learn/start-a-new-react-project)
 (https://github.com/facebook/react/releases)
+
+npm outdate:			Mostrar las diferencias entre las versiones instaladas y las versiones en las que se desarrollo el proyecto.
+
+
+npm audit flix:			Permite actualizar los paquetes con vulnerabilidades
+npm audit flix --force:		Permite actualizar por debajo de los paquetes para vulnerabilidades cuando el comando anterior no basta
+(Si los dos comandos anteriores no bastan puedes revisar gracias a 'npm audit', dónde están las vulnerabilidades
+para luego con npm list ver exactamente cuáles estas usando y actualizar a la última versión con el @latest)
+
+
+
+npm unistall webpack-dev-server:Permite desinstalar 'webpack-dev-server' u cualquier otra depencia cambia el nombre de la dependencia obviamente
+(En caso eliminar directamente de package.json se recomienda eliminar toda la carpeta de "node_modules"
+y reinstalar las dependencias con "npm install"
+npm run build:			Para poder compilar el proyecto, lo prepara para producción
+npm run build --dd:		Similar al anterior pero de manera más detallada.
+npm ci:				Te muestra librerías que ya no estarán en actualización. También puede sincronizar "package" con"package-lock"
