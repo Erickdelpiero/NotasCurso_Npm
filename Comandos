@@ -1,0 +1,32 @@
+//Instalando Nodejs incluye la instalación de NPM
+
+
+
+npm init:			Inicializa mi proyecto con npm
+
+
+npm install moment:		Instala moment
+npm install eslint --save-dev:	Se instala "eslint" únicamente para el entorno de desarrollo, ya que nunca se lleva a producción (--save-dev)
+npm install eslint -D:		Se instala "eslint" únicamente para el entorno de desarrollo, ya que nunca se lleva a producción (-D)
+npm install react --save:	Dependencia para ser llevada a producción "react"
+npm install react -S:		Dependencia para ser llevada a producción "react"
+npm install -g cowsay:		Instala el paquete global "cowsay"
+npm list:			Lista de todos los paquetes instalados
+npm list -g:			Ver lista de paquetes globales
+
+
+
+npm eslint -o:			Cuando quieres instalar una dependencia opcional, o quieres pasarla de desarollo o producción a opcional (-o)
+npm install react-dom --dry-run:Simula la instalación para verificar que no hay conflictos, solo simula pero realmente no lo instala.
+npm install json-server@0.17.4:	Instala una versión en específico de "json-server" gracias (@0.17.4)
+npm install json-server@latest:	Instala la versión más reciente que se tenga gracias a (@latest)
+npm install:			Instala todas las dependencias cuando clonas un repositorio abierto de internet, gracias al archivo package.json
+
+
+npm run start:			Ejecuta el script "start", que es un alias definido en los script de package.json
+
+
+React
+npx create-react-app my-app:	Ejecuta e instala unos paquetes para crear una app de react, cuyo nombre es "my app"
+(https://es.react.dev/learn/start-a-new-react-project)
+(https://github.com/facebook/react/releases)
